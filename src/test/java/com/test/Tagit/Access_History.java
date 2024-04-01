@@ -33,7 +33,7 @@ public class Access_History {
 
 	public void setup() throws Exception {
 	DesiredCapabilities dc = DesiredCapabilities.chrome();
-	URL url = new URL("http://172.20.23.7:5555/wd/hub");
+	URL url = new URL("http://172.12.20.99:4443/wd/hub");
 	driver = new RemoteWebDriver(url, dc);
 	wait = new WebDriverWait(driver, 30);
 
@@ -77,7 +77,7 @@ public class Access_History {
 	WebElement emailInput = wait
 	.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
 	if (emailInput != null && emailInput.isDisplayed()) {
-	emailInput.sendKeys("teamsoftware457@gmail.com");
+	emailInput.sendKeys("softwareteam45@gmail.com");
 	System.out.println("Email was entered successfully.");
 	} else {
 	System.out.println("Email was not entered.");

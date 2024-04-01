@@ -53,7 +53,7 @@ public class Brain {
 			
 				DesiredCapabilities dc = DesiredCapabilities.chrome();
 			
-				URL url = new URL("http://172.20.23.7:5555/wd/hub");
+				URL url = new URL("http://172.12.20.99:4443/wd/hub");
 			
 				driver = new RemoteWebDriver(url, dc);
 			
@@ -126,7 +126,7 @@ public class Brain {
 			
 			 if (emailInput != null && emailInput.isDisplayed()) {
 			
-			 emailInput.sendKeys("teamsoftware457@gmail.com");
+			 emailInput.sendKeys("softwareteam45@gmail.com");
 			
 			 System.out.println("Email was entered successfully.");
 			
@@ -185,7 +185,7 @@ public class Brain {
 			
 		public void brain_tag_it() throws InterruptedException {
 			
-				WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input)[1]")));
+				WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search tags']")));
 			
 			 if (searchBar != null && searchBar.isDisplayed()) {
 			
@@ -375,7 +375,7 @@ public class Brain {
 			
 				
 			
-				WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon']")));
+				WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon search-submit']")));
 			
 				if (enterButton != null && enterButton.isDisplayed()) {
 			

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T13:47:50 IST" name="Default suite" finished-at="2024-03-07T13:49:08 IST" duration-ms="78062">
+  <suite started-at="2024-04-01T15:29:46 IST" name="Default suite" finished-at="2024-04-01T15:30:47 IST" duration-ms="61074">
     <groups>
     </groups>
-    <test started-at="2024-03-07T13:47:50 IST" name="Default test" finished-at="2024-03-07T13:49:08 IST" duration-ms="78062">
-      <class name="com.test.Tagit.Access_History">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:47:50 IST" name="setup" finished-at="2024-03-07T13:47:51 IST" duration-ms="807" status="PASS">
+    <test started-at="2024-04-01T15:29:46 IST" name="Default test" finished-at="2024-04-01T15:30:47 IST" duration-ms="61074">
+      <class name="com.test.Tagit.Brain">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:29:46 IST" name="setup" finished-at="2024-04-01T15:29:46 IST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:47:51 IST" name="login" finished-at="2024-03-07T13:48:01 IST" duration-ms="10171" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:29:46 IST" name="login" finished-at="2024-04-01T15:29:56 IST" duration-ms="9876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="History_Test_brain()[pri:2, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:48:01 IST" name="History_Test_brain" finished-at="2024-03-07T13:48:16 IST" duration-ms="14966" status="PASS">
+        <test-method signature="brain_tag_it()[pri:2, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:29:56 IST" name="brain_tag_it" finished-at="2024-04-01T15:30:25 IST" duration-ms="28618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- History_Test_brain -->
-        <test-method signature="History_Test_Section_cell()[pri:3, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:48:16 IST" name="History_Test_Section_cell" finished-at="2024-03-07T13:48:39 IST" duration-ms="23053" status="PASS">
+        </test-method> <!-- brain_tag_it -->
+        <test-method signature="tagIT_Search()[pri:3, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:30:25 IST" name="tagIT_Search" finished-at="2024-04-01T15:30:38 IST" duration-ms="12967" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- History_Test_Section_cell -->
-        <test-method signature="History_Test_Section_Atlas()[pri:4, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:48:39 IST" name="History_Test_Section_Atlas" finished-at="2024-03-07T13:49:08 IST" duration-ms="28909" status="PASS">
+        </test-method> <!-- tagIT_Search -->
+        <test-method signature="viewer()[pri:4, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:30:38 IST" name="viewer" finished-at="2024-04-01T15:30:46 IST" duration-ms="8621" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- History_Test_Section_Atlas -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.Tagit.Access_History@36916eb0]" started-at="2024-03-07T13:49:08 IST" name="afterTest" finished-at="2024-03-07T13:49:08 IST" duration-ms="126" status="PASS">
+        </test-method> <!-- viewer -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.Tagit.Brain@32502377]" started-at="2024-04-01T15:30:46 IST" name="afterTest" finished-at="2024-04-01T15:30:47 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.test.Tagit.Access_History -->
+      </class> <!-- com.test.Tagit.Brain -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

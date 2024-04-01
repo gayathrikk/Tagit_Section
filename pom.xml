@@ -70,7 +70,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.test.Tagit.Access_History</test>
+            <test>com.test.Tagit.Brain</test>
           </configuration>
         </plugin>
       </plugins>
