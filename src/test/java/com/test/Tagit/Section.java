@@ -125,12 +125,12 @@ public class Section {
 			  String parentWindow2 = driver.getWindowHandle();
 		
 			 
-			  WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-card-footer[@class='p-2'])[1]/nb-icon")));
+			  WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
 			  if (redirectIcon != null && redirectIcon.isDisplayed()) {
 			  redirectIcon.click();
-			     System.out.println("Brain was clicked successfully");
+			     System.out.println("Viewer was clicked successfully");
 			  } else {
-			    System.out.println("Brain was not clicked");
+			    System.out.println("Viewer was not clicked");
 			  }
 			  Thread.sleep(3000);
 			 
@@ -243,7 +243,7 @@ public class Section {
 			public void atlasviewer() throws InterruptedException {
 			  String parentWindow3 = driver.getWindowHandle();
 		
-			WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-card-footer[@class='p-2'])[2]/nb-icon[1]")));
+			WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
 			  if (redirectIcon2 != null && redirectIcon2.isDisplayed()) {
 			  redirectIcon2.click();
 			     System.out.println("Atlas icon was clicked successfully");
