@@ -243,7 +243,7 @@ public class Section {
 			public void atlasviewer() throws InterruptedException {
 			  String parentWindow3 = driver.getWindowHandle();
 		
-			WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
+			WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-icon[@nbtooltip='Atlas Editor'])[1]")));
 			  if (redirectIcon2 != null && redirectIcon2.isDisplayed()) {
 			  redirectIcon2.click();
 			     System.out.println("Atlas icon was clicked successfully");
