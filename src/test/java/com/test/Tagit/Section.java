@@ -227,7 +227,7 @@ public class Section {
 			  }
 			  Thread.sleep(3000);
 			 
-			  WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon search-submit']")));
+			  WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon search-submit ng-star-inserted']")));
 			  if (enterButton != null && enterButton.isDisplayed()) {
 			  enterButton.click();
 			  System.out.println("Section Tags entered successfully");
