@@ -75,7 +75,7 @@ public class Section {
 			  }
 			  WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
 			  if (emailInput != null && emailInput.isDisplayed()) {
-			     emailInput.sendKeys("softwareteam45@gmail.com");
+			     emailInput.sendKeys("softwaretestingteam9@gmail.com");
 			     System.out.println("Email was entered successfully.");
 			  } else {
 			    System.out.println("Email was not entered.");
